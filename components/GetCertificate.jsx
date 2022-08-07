@@ -103,9 +103,9 @@ export const GetCertificate = () => {
     const amount = ethers.utils.parseUnits(maticAmount, "ether");
     const description = `This is certificate issued for ${fullName} for stacking ${maticAmount} MATIC in credit bureau`;
     const tokenUri = "https://ipfs.io/ipfs/bafkreieokh3pwl6h2ydnjv3a2cl7aqxed5gfxp6mto74i4p53xminikfyu";
-    if (maticAmount < 100) {
+    if (maticAmount < 1) {
       setIsLoading(false);
-      alert("Amount should be greater than 100");
+      alert("Amount should be greater than 1");
       return;
     }
     if (!fullName || !maticAmount) {
