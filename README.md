@@ -1,8 +1,11 @@
+
 # Credit certificate NFT 
 
 Get NFT certificate for Locking MATICs for Locking more than one MATIC in the app
 
-Contract Address: - [0xc2dFB5Ccff2B3a334e8DDded9a8069f4BE2a89EC](https://mumbai.polygonscan.com/address/0xc2dFB5Ccff2B3a334e8DDded9a8069f4BE2a89EC)
+Deployed Contract: - [0xc2dFB5Ccff2B3a334e8DDded9a8069f4BE2a89EC](https://mumbai.polygonscan.com/address/0xc2dFB5Ccff2B3a334e8DDded9a8069f4BE2a89EC)
+
+Live URL : - https://credit-score-9n9sczyv5-mohitchandel.vercel.app/
 
 ## How to use? (For users)
 - Get certificate NFT
@@ -40,3 +43,5 @@ Hardhat Commands:-
 - UI framework - [Next UI](https://nextui.org/)
 - [EthersJs](https://ethers.org/)
 - [Rainbow kit](https://www.rainbowkit.com/) (to connect wallet)
+-  Languages used - Solidty, Typescript and JSX.
+
