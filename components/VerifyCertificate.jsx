@@ -33,7 +33,7 @@ export const VerifyCertificate = () => {
     }
     try {
       const provider = new ethers.providers.JsonRpcProvider(
-        `https://polygon-mumbai.g.alchemy.com/v2/${process.env.NEXT_PUBLIC_ALCHEMY_ID}`
+        `https://rpc-mumbai.maticvigil.com`
       );
       const contract = new ethers.Contract(
         process.env.NEXT_PUBLIC_CONTRACT,
