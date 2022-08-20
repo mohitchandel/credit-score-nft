@@ -84,7 +84,7 @@ export const GetCertificate = () => {
       Swal.fire({
         icon: "success",
         title: "MATIC's unlock successfully",
-        html: `<a href="https://rinkeby.etherscan.io/tx/${tx.hash}">View on explorer</a>`,
+        html: `<a href="https://mumbai.polygonscan.com/tx/${tx.hash}">View on explorer</a>`,
       }).then(router.push('/'));
       setIsLoading(false);
     } catch (err) {
@@ -138,7 +138,7 @@ export const GetCertificate = () => {
       Swal.fire({
         icon: "success",
         title: "Certificate generate successfully",
-        html: `<a href="https://rinkeby.etherscan.io/tx/${tx.hash}">View on explorer</a>`,
+        html: `<a href="https://mumbai.polygonscan.com/tx/${tx.hash}">View on explorer</a>`,
       }).then(router.push('/'));
     } catch (err) {
       console.log(err.message);
